@@ -1,8 +1,8 @@
-Package: intror
-Title: Introductory R requirements
+Package: introds
+Title: Introductory data science requirements
 Version: 0.1
 Authors@R: person("Steph", "Locke", email = "steph@itsalocke.com", role = c("aut", "cre"))
-Description: Package manifest for introductory R training
+Description: Package manifest for introductory R training in data science
 Depends: R (>= 3.4.0)
 License: MIT
 Encoding: UTF-8
@@ -10,7 +10,14 @@ LazyData: true
 Remotes: lockedata/pRojects
 Imports: tidyverse,
     pRojects,
-    intubate,
+    recipes,
+    yardstick,
+    glmnetUtils,
+    DataExplorer,
     FFTrees,
     DBI,
-    odbc
+    odbc,
+    readxl,
+    writexl,
+    synthpop,
+    dbplyr
